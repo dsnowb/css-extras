@@ -1,0 +1,212 @@
+* {
+  //outline: 1px orange dotted;
+}
+
+
+body {
+  width: 960px;
+  margin: 0 auto;
+}
+
+header > img {
+  float: left;
+  margin: 15px 15px 15px 0;
+}
+
+header h2 {
+  margin-top: 20px;
+  float: left;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 20px;
+  color: #444;
+}
+
+header > ul {
+  margin-top: 20px;
+  float: right;
+}
+
+header > ul li {
+  position: relative;
+  top: 5px;
+  margin-right: 20px;
+  float: left;
+}
+
+header > ul li:last-child {
+  top: 0;
+  margin-right: 0;
+}
+
+header nav {
+  padding-top: 15px;
+  border-top: 1px solid #eee;
+  clear: both;
+}
+
+/*
+ * NOTE: below is a text-align: justify hack to get a single line of <li>'s to justify.
+ * If preferable, the margin-right can be set for the nav <li>'s and the margin-bottom can be set
+ * for the nav. Cleaner, but no justify. 
+*/
+
+nav ul {
+  text-align: justify;
+}
+
+nav ul:after {
+  display: inline-block;
+  content: "";
+  width: 100%;
+}
+
+nav li {
+  display: inline-block;
+}
+
+a {
+  font-family: Arial, sans;
+  color: #aaa;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.hero {
+  position: relative;
+  margin-bottom: 60px;
+}
+
+#hero_overlay {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  width: 325px;
+}
+
+.hero h1 {
+  margin-bottom: 30px;
+  font-family: Geneva;
+  font-size: 48px;
+  color: #bbb;
+}
+
+.hero p {
+  margin-bottom: 40px;
+  font-family: Arial, sans;
+  font-size: 18px;
+  line-height: 30px;
+  color: #bbb;
+}
+
+.hero_button {
+  float: left;
+  margin-right: 15px;
+  padding-top: 10px;
+  cursor: pointer;
+  width: 100px;
+  height: 25px;
+  border: 1px solid #bbb;
+  border-radius: 20px;
+  text-align: center;
+  color: #bbb;
+}
+
+.hero_button:hover {
+  background-color: #bbb;
+  color: #444;
+  cursor: pointer;
+}
+
+main > h2 {
+  position: relative;
+  top: 1px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #666;
+  float: left;
+  font-size: 24px;
+  font-family: Geneva;
+  font-weight: bold;
+  color: #444;
+}
+
+main > a {
+  margin-top: 5px;
+  float: right;
+}
+
+.featured_content {
+  margin-bottom: 20px;
+  border-top: 1px solid #ddd;
+  clear: both;
+}
+
+.featured_content li {
+  position: relative;
+  margin-top: 20px;
+  margin-right: 20px;
+  padding-right: 15px;
+  float: left;
+  width: 453px;
+  border: 1px solid #ddd;
+}
+
+.featured_content > ul li:nth-child(2), .featured_content > ul li:nth-child(4) {
+  margin-right: 0px;
+}
+
+.featured_content li > img {
+  float: left;
+  margin-right: 15px;
+}
+
+.featured_content h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-family: Arial, sans;
+  font-weight: bold;
+  color: #333;
+}
+
+.featured_content li p {
+  font-family: Arial, sans;
+  font-size: 14px;
+  color: #aaa;
+  line-height: 18px;
+}
+
+.article_info {
+  position: absolute;
+  height: 30px;
+  bottom: 20px;
+  left: 205px;
+  right: 15px;
+}
+
+.article_info h4 {
+  font-family: Arial, sans;
+  float: left;
+  width: 180px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.article_info img:first-child {
+  float: left;
+  margin-top: 0;
+  margin-right: 10px;
+  border-radius: 15px;
+}
+
+.article_info p {
+  float: left;
+  margin-right: 5px;
+  font-size: 10px;
+}
+
+.article_info img {
+  margin-top: 5px;
+  float: right;
+}
