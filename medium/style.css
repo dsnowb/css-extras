@@ -10,7 +10,16 @@ body {
 
 header > img {
   float: left;
-  margin: 20px 0;
+  margin: 15px 15px 15px 0;
+}
+
+header h2 {
+  margin-top: 20px;
+  float: left;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 20px;
+  color: #444;
 }
 
 header > ul {
@@ -31,8 +40,8 @@ header > ul li:last-child {
 }
 
 header nav {
-  padding-top: 20px;
-  border-top: 1px solid #bbb;
+  padding-top: 15px;
+  border-top: 1px solid #eee;
   clear: both;
 }
 
@@ -57,9 +66,11 @@ nav li {
 }
 
 a {
-  font-family: Verdana;
-  color: #555;
+  font-family: Arial, sans;
+  color: #aaa;
   text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
 }
 
 .hero {
@@ -83,8 +94,9 @@ a {
 
 .hero p {
   margin-bottom: 40px;
-  font-family: Verdana;
-  font-size: 20px;
+  font-family: Arial, sans;
+  font-size: 18px;
+  line-height: 30px;
   color: #bbb;
 }
 
@@ -111,7 +123,7 @@ main > h2 {
   position: relative;
   top: 1px;
   padding-bottom: 20px;
-  border-bottom: 1px solid #222;
+  border-bottom: 1px solid #666;
   float: left;
   font-size: 24px;
   font-family: Geneva;
@@ -125,7 +137,8 @@ main > a {
 }
 
 .featured_content {
-  border-top: 1px solid #bbb;
+  margin-bottom: 20px;
+  border-top: 1px solid #ddd;
   clear: both;
 }
 
@@ -151,15 +164,17 @@ main > a {
 .featured_content h3 {
   margin-top: 20px;
   margin-bottom: 10px;
-  font-size: 24px;
-  font-family: Geneva;
+  font-size: 18px;
+  font-family: Arial, sans;
   font-weight: bold;
   color: #333;
 }
 
 .featured_content li p {
-  font-family: Verdana;
+  font-family: Arial, sans;
+  font-size: 14px;
   color: #aaa;
+  line-height: 18px;
 }
 
 .article_info {
@@ -171,9 +186,11 @@ main > a {
 }
 
 .article_info h4 {
+  font-family: Arial, sans;
   float: left;
   width: 180px;
   font-weight: bold;
+  font-size: 14px;
 }
 
 .article_info img:first-child {
@@ -186,6 +203,7 @@ main > a {
 .article_info p {
   float: left;
   margin-right: 5px;
+  font-size: 10px;
 }
 
 .article_info img {
