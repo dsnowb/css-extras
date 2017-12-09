@@ -1,0 +1,58 @@
+* {
+  outline: 1px orange dotted;
+}
+
+body {
+  width: 960px;
+  margin: 0 auto;
+}
+
+header > img {
+  float: left;
+  margin: 20px 0;
+}
+
+header > ul {
+  margin-top: 20px;
+  float: right;
+}
+
+header > ul li {
+  position: relative;
+  top: 5px;
+  margin-right: 20px;
+  float: left;
+}
+
+header > ul li:last-child {
+  top: 0;
+  margin-right: 0;
+}
+
+header nav {
+  padding-top: 20px;
+  border-top: 1px solid #777;
+  clear: both;
+}
+
+/*
+ * NOTE: below is a text-align: justify hack to get a single line of <li>'s to justify.
+ * If preferable, the margin-right can be set for the nav <li>'s and the margin-bottom can be set
+ * for the nav. Cleaner, but no justify. 
+*/
+
+nav ul {
+  text-align: justify;
+}
+
+nav ul:after {
+  display: inline-block;
+  content: "";
+  width: 100%;
+}
+
+nav li {
+  display: inline-block;
+}
+
+
