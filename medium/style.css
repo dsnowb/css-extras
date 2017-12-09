@@ -63,7 +63,48 @@ a {
 }
 
 .hero {
+  position: relative;
   margin-bottom: 60px;
+}
+
+#hero_overlay {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  width: 325px;
+}
+
+.hero h1 {
+  margin-bottom: 30px;
+  font-family: Geneva;
+  font-size: 48px;
+  color: #bbb;
+}
+
+.hero p {
+  margin-bottom: 40px;
+  font-family: Verdana;
+  font-size: 20px;
+  color: #bbb;
+}
+
+.hero_button {
+  float: left;
+  margin-right: 15px;
+  padding-top: 10px;
+  cursor: pointer;
+  width: 100px;
+  height: 25px;
+  border: 1px solid #bbb;
+  border-radius: 20px;
+  text-align: center;
+  color: #bbb;
+}
+
+.hero_button:hover {
+  background-color: #bbb;
+  color: #444;
+  cursor: pointer;
 }
 
 main > h2 {
