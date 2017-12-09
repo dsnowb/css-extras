@@ -1,5 +1,5 @@
 * {
- // outline: 1px orange dotted;
+  //outline: 1px orange dotted;
 }
 
 
@@ -130,6 +130,7 @@ main > a {
 }
 
 .featured_content li {
+  position: relative;
   margin-top: 20px;
   margin-right: 20px;
   padding-right: 15px;
@@ -142,7 +143,7 @@ main > a {
   margin-right: 0px;
 }
 
-.featured_content img {
+.featured_content li > img {
   float: left;
   margin-right: 15px;
 }
@@ -153,11 +154,41 @@ main > a {
   font-size: 24px;
   font-family: Geneva;
   font-weight: bold;
-  color: #444;
+  color: #333;
 }
 
-.featured.content p {
+.featured_content li p {
   font-family: Verdana;
-  color: #555;
+  color: #aaa;
 }
 
+.article_info {
+  position: absolute;
+  height: 30px;
+  bottom: 20px;
+  left: 205px;
+  right: 15px;
+}
+
+.article_info h4 {
+  float: left;
+  width: 180px;
+  font-weight: bold;
+}
+
+.article_info img:first-child {
+  float: left;
+  margin-top: 0;
+  margin-right: 10px;
+  border-radius: 15px;
+}
+
+.article_info p {
+  float: left;
+  margin-right: 5px;
+}
+
+.article_info img {
+  margin-top: 5px;
+  float: right;
+}
